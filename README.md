@@ -22,6 +22,12 @@ If the requirements are not correctly installed (check with the 'pip list' comma
 Start your streamlit experience by entering:
 streamlit run ./src/main.py
 
+
+This starter kit also contain:
+- ./Dockerfile: to build the docker image of your streamlit magic app
+- ./.azure-pipelines/pipeline_build_deploy_streamlit_app.yml: yaml file to build and push the docker image to an azure container registry with azure devops
+
+
 Please refer
 - [streamlit documentation](https://docs.streamlit.io/)
 - [snowpark for python](https://docs.snowflake.com/en/developer-guide/snowpark/python/index.html)
