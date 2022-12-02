@@ -15,6 +15,13 @@ Create a virtual env with Python 3.8, streamlit, snowpark for data Science and d
 3. Copy the .streamlit/secrets-example.toml as .streamlit/secrets.toml, edit it to fill the snowflake connection informations
 4. In VsCode use the command palette (Ctrl + P) and enter >Dev containers: Rebuild and Reopen in Container
 
+If the requirements are not correctly installed (check with the 'pip list' command), just run :
+- pip install -r /workspaces/app/.devcontainer/requirements-dev.txt
+- pip install -r /workspaces/app/requirements.txt
+
+Start your streamlit experience by entering:
+streamlit run ./src/main.py
+
 Please refer
 - [streamlit documentation](https://docs.streamlit.io/)
 - [snowpark for python](https://docs.snowflake.com/en/developer-guide/snowpark/python/index.html)

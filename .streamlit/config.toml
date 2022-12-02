@@ -1,0 +1,7 @@
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+
+[logger]
+# Level of logging: 'error', 'warning', 'info', or 'debug'.
+level = "info"
