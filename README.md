@@ -25,7 +25,7 @@ streamlit run ./src/main.py
 
 This starter kit also contain:
 - ./Dockerfile: to build the docker image of your streamlit magic app
-- ./.azure-pipelines/pipeline_build_deploy_streamlit_app.yml: yaml file to build and push the docker image to an azure container registry with azure devops
+- ./.azure-pipelines/pipeline_build_deploy_streamlit_app.yml: to build and push the docker image to an azure container registry with an azure devops pipeline
 
 
 Please refer
