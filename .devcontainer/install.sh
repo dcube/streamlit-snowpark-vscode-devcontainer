@@ -13,8 +13,8 @@ python3 -m venv /workspaces/app/.venv
 PATH="/workspaces/app/.venv/bin:$PATH"
 
 source /workspaces/app/.venv/bin/activate
-pip install --upgrade pip
+sudo pip install --upgrade pip
 
 #install requirements
-pip install -r /workspaces/app/.devcontainer/requirements-dev.txt
-pip install -r /workspaces/app/requirements.txt
+sudo pip install --upgrade --no-deps --force-reinstall -r /workspaces/app/.devcontainer/requirements-dev.txt
+sudo pip install --upgrade --no-deps --force-reinstall -r /workspaces/app/requirements.txt 
